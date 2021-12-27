@@ -14,9 +14,9 @@ List::~List(void)
 }
 
 bool List::IsEmpty () { return size==0;}
-bool List::IsFull () {return (size == MaxSize); }
+bool List::IsFull () {return (size == MaxSize); }//
 
-void List::Insert (DataType e)
+void List::Insert (DataType e)//
 {
  if (!(IsFull()))
  {    Item[size] = e;
